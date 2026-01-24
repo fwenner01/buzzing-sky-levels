@@ -6,23 +6,30 @@
   "goldPrize": 0,
   "itemPrizes": [
     "mushroom",
-    "lilypad",
-    "coffee",
+    "zapper",
     "freezer",
-    "zapper"
+    "freezer",
+    "poisonDartFrog"
   ],
   "rounds": [
     [
       {
+        "count": 3,
+        "delay": 1.126793,
+        "type": "mosquito",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
         "count": 13,
-        "delay": 0.95547676,
+        "delay": 1.000495,
         "type": "mosquito",
-        "spawn": "nest2",
+        "spawn": "nest3",
         "checkpoints": null
       },
       {
         "count": 12,
-        "delay": 1.3439859,
+        "delay": 0.9932085,
         "type": "mosquito",
         "spawn": "nest1",
         "checkpoints": null
@@ -30,124 +37,544 @@
     ],
     [
       {
-        "count": 16,
-        "delay": 0.9753054,
+        "count": 13,
+        "delay": 1.2456614,
         "type": "mosquito",
         "spawn": "nest1",
         "checkpoints": null
       },
       {
         "count": 12,
-        "delay": 1.2050889,
+        "delay": 0.8314058,
         "type": "mosquito",
-        "spawn": "nest1",
+        "spawn": "nest3",
         "checkpoints": null
       },
       {
         "count": 2,
-        "delay": 0.93741006,
-        "type": "mosquito",
-        "spawn": "nest2",
-        "checkpoints": null
-      }
-    ],
-    [
-      {
-        "count": 2,
-        "delay": 1.15,
+        "delay": 1.1999999,
         "type": "horsefly",
+        "spawn": "nest3",
+        "checkpoints": null
+      }
+    ],
+    [
+      {
+        "count": 3,
+        "delay": 0.72282976,
+        "type": "mosquito",
         "spawn": "nest2",
         "checkpoints": null
       },
       {
-        "count": 1,
-        "delay": 1.15,
-        "type": "wasp",
+        "count": 19,
+        "delay": 1.0562136,
+        "type": "mosquito",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 9,
+        "delay": 0.9998583,
+        "type": "mosquito",
+        "spawn": "nest2",
+        "checkpoints": null
+      }
+    ],
+    [
+      {
+        "count": 10,
+        "delay": 1.0999999,
+        "type": "horsefly",
+        "spawn": "nest1",
+        "checkpoints": null
+      },
+      {
+        "count": 9,
+        "delay": 0.775481,
+        "type": "snoutFly",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 12,
+        "delay": 1.0999999,
+        "type": "superMosquito",
         "spawn": "nest1",
         "checkpoints": null
       },
       {
         "count": 3,
-        "delay": 1.15,
+        "delay": 0.73948526,
+        "type": "mosquito",
+        "spawn": "nest3",
+        "checkpoints": null
+      }
+    ],
+    [
+      {
+        "count": 8,
+        "delay": 1.05,
+        "type": "horsefly",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 8,
+        "delay": 0.7182895,
+        "type": "snoutFly",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 7,
+        "delay": 1.05,
+        "type": "wasp",
+        "spawn": "nest1",
+        "checkpoints": null
+      },
+      {
+        "count": 8,
+        "delay": 0.57205915,
+        "type": "mosquito",
+        "spawn": "nest2",
+        "checkpoints": null
+      }
+    ],
+    [
+      {
+        "count": 10,
+        "delay": 0.72985435,
+        "type": "mosquito",
+        "spawn": "nest1",
+        "checkpoints": null
+      },
+      {
+        "count": 9,
+        "delay": 0.79098964,
+        "type": "snoutFly",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 4,
+        "delay": 0.99999994,
+        "type": "horsefly",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 7,
+        "delay": 0.99999994,
+        "type": "wasp",
+        "spawn": "nest1",
+        "checkpoints": null
+      },
+      {
+        "count": 4,
+        "delay": 0.51889014,
+        "type": "mosquito",
+        "spawn": "nest1",
+        "checkpoints": null
+      }
+    ],
+    [
+      {
+        "count": 8,
+        "delay": 0.7004925,
+        "type": "snoutFly",
+        "spawn": "nest1",
+        "checkpoints": null
+      },
+      {
+        "count": 13,
+        "delay": 0.9499999,
+        "type": "wasp",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 13,
+        "delay": 0.9499999,
+        "type": "superMosquito",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 8,
+        "delay": 0.9499999,
+        "type": "superMosquito",
+        "spawn": "nest1",
+        "checkpoints": null
+      }
+    ],
+    [
+      {
+        "count": 7,
+        "delay": 0.9,
+        "type": "superMosquito",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 1,
+        "delay": 0.9,
+        "type": "wasp",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 1,
+        "delay": 0.32092208,
+        "type": "mosquito",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 26,
+        "delay": 0.9,
+        "type": "superMosquito",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 11,
+        "delay": 0.29481524,
+        "type": "mosquito",
+        "spawn": "nest3",
+        "checkpoints": null
+      }
+    ],
+    [
+      {
+        "count": 2,
+        "delay": 0.07167066,
+        "type": "moth",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 20,
+        "delay": 0.23533916,
+        "type": "moth",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 4,
+        "delay": 0.060934693,
+        "type": "moth",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 16,
+        "delay": 0.084131666,
+        "type": "moth",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 9,
+        "delay": 0.27714494,
+        "type": "moth",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 7,
+        "delay": 0.36130685,
+        "type": "moth",
+        "spawn": "nest3",
+        "checkpoints": null
+      }
+    ],
+    [
+      {
+        "count": 18,
+        "delay": 0.79999995,
+        "type": "superMosquito",
+        "spawn": "nest1",
+        "checkpoints": null
+      },
+      {
+        "count": 4,
+        "delay": 0.46568552,
+        "type": "snoutFly",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 4,
+        "delay": 0.79999995,
+        "type": "wasp",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 11,
+        "delay": 0.79999995,
+        "type": "wasp",
+        "spawn": "nest1",
+        "checkpoints": null
+      },
+      {
+        "count": 9,
+        "delay": 0.79999995,
+        "type": "wasp",
+        "spawn": "nest2",
+        "checkpoints": null
+      }
+    ],
+    [
+      {
+        "count": 6,
+        "delay": 0.38259518,
+        "type": "mosquito",
+        "spawn": "nest1",
+        "checkpoints": null
+      },
+      {
+        "count": 44,
+        "delay": 0.74999994,
+        "type": "wasp",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 2,
+        "delay": 0.74999994,
+        "type": "superMosquito",
+        "spawn": "nest1",
+        "checkpoints": null
+      }
+    ],
+    [
+      {
+        "count": 4,
+        "delay": 0.02,
+        "type": "mosquito",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 7,
+        "delay": 0.32473135,
+        "type": "snoutFly",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 1,
+        "delay": 0.6999999,
+        "type": "horsefly",
+        "spawn": "nest1",
+        "checkpoints": null
+      },
+      {
+        "count": 37,
+        "delay": 0.02,
+        "type": "mosquito",
+        "spawn": "nest3",
+        "checkpoints": null
+      }
+    ],
+    [
+      {
+        "count": 12,
+        "delay": 0.6499999,
+        "type": "horsefly",
+        "spawn": "nest1",
+        "checkpoints": null
+      },
+      {
+        "count": 11,
+        "delay": 0.6499999,
+        "type": "wasp",
+        "spawn": "nest1",
+        "checkpoints": null
+      },
+      {
+        "count": 13,
+        "delay": 0.3365217,
+        "type": "moth",
+        "spawn": "nest1",
+        "checkpoints": null
+      },
+      {
+        "count": 23,
+        "delay": 0.6499999,
+        "type": "superMosquito",
+        "spawn": "nest2",
+        "checkpoints": null
+      }
+    ],
+    [
+      {
+        "count": 11,
+        "delay": 0.37174386,
+        "type": "moth",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 7,
+        "delay": 0.24929035,
+        "type": "moth",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 21,
+        "delay": 0.31954572,
+        "type": "moth",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 16,
+        "delay": 0.30752105,
+        "type": "moth",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 7,
+        "delay": 0.04661486,
+        "type": "moth",
+        "spawn": "nest1",
+        "checkpoints": null
+      },
+      {
+        "count": 3,
+        "delay": 0.42497322,
+        "type": "moth",
+        "spawn": "nest1",
+        "checkpoints": null
+      }
+    ],
+    [
+      {
+        "count": 7,
+        "delay": 0.54999995,
         "type": "superMosquito",
         "spawn": "nest2",
         "checkpoints": null
       },
       {
         "count": 19,
-        "delay": 0.90443534,
-        "type": "mosquito",
-        "spawn": "nest2",
+        "delay": 0.48058587,
+        "type": "snoutFly",
+        "spawn": "nest3",
         "checkpoints": null
       },
       {
-        "count": 5,
-        "delay": 1.15,
+        "count": 3,
+        "delay": 0.02,
+        "type": "mosquito",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 22,
+        "delay": 0.54999995,
         "type": "wasp",
-        "spawn": "nest2",
+        "spawn": "nest3",
         "checkpoints": null
       },
       {
-        "count": 1,
-        "delay": 1.1043495,
-        "type": "none",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 1,
-        "delay": 1.1741233,
-        "type": "mosquito",
+        "count": 8,
+        "delay": 0.54999995,
+        "type": "wasp",
         "spawn": "nest1",
         "checkpoints": null
       }
     ],
     [
       {
-        "count": 4,
-        "delay": 1.0999999,
-        "type": "horsefly",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 1,
-        "delay": 0.920153,
-        "type": "mosquito",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 12,
-        "delay": 0.8670497,
-        "type": "mosquito",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 1,
-        "delay": 1.0999999,
-        "type": "wasp",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 10,
-        "delay": 1.0999999,
-        "type": "wasp",
+        "count": 11,
+        "delay": 1.3465456,
+        "type": "superMoth",
         "spawn": "nest2",
         "checkpoints": null
       },
       {
         "count": 9,
-        "delay": 1.0999999,
-        "type": "horsefly",
+        "delay": 0.49999994,
+        "type": "superMosquito",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 22,
+        "delay": 0.4805478,
+        "type": "snoutFly",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 4,
+        "delay": 0.49999994,
+        "type": "wasp",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 3,
+        "delay": 0.49999994,
+        "type": "wasp",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 7,
+        "delay": 0.2461273,
+        "type": "snoutFly",
+        "spawn": "nest1",
+        "checkpoints": null
+      }
+    ],
+    [
+      {
+        "count": 31,
+        "delay": 0.44999993,
+        "type": "superMosquito",
         "spawn": "nest1",
         "checkpoints": null
       },
       {
-        "count": 1,
-        "delay": 1.0999999,
+        "count": 33,
+        "delay": 0.44999993,
+        "type": "superMosquito",
+        "spawn": "nest2",
+        "checkpoints": null
+      }
+    ],
+    [
+      {
+        "count": 6,
+        "delay": 0.4900328,
+        "type": "moth",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 14,
+        "delay": 0.10503912,
+        "type": "snoutFly",
+        "spawn": "nest1",
+        "checkpoints": null
+      },
+      {
+        "count": 19,
+        "delay": 0.02,
+        "type": "mosquito",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 28,
+        "delay": 0.39999992,
         "type": "wasp",
         "spawn": "nest2",
         "checkpoints": null
@@ -155,236 +582,141 @@
     ],
     [
       {
-        "count": 15,
-        "delay": 0.58781886,
-        "type": "mosquito",
-        "spawn": "nest2",
+        "count": 7,
+        "delay": 0.34999996,
+        "type": "superMosquito",
+        "spawn": "nest3",
         "checkpoints": null
       },
       {
-        "count": 2,
-        "delay": 1.05,
+        "count": 12,
+        "delay": 0.34999996,
+        "type": "wasp",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 24,
+        "delay": 0.30994463,
+        "type": "snoutFly",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 21,
+        "delay": 0.34999996,
         "type": "superMosquito",
-        "spawn": "nest2",
+        "spawn": "nest1",
+        "checkpoints": null
+      },
+      {
+        "count": 6,
+        "delay": 0.4132738,
+        "type": "moth",
+        "spawn": "nest1",
         "checkpoints": null
       },
       {
         "count": 3,
-        "delay": 0.98851836,
+        "delay": 0.25976956,
+        "type": "moth",
+        "spawn": "nest1",
+        "checkpoints": null
+      }
+    ],
+    [
+      {
+        "count": 22,
+        "delay": 0.17040357,
+        "type": "moth",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 9,
+        "delay": 0.15695906,
+        "type": "moth",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 27,
+        "delay": 0.22635686,
+        "type": "moth",
+        "spawn": "nest1",
+        "checkpoints": null
+      },
+      {
+        "count": 19,
+        "delay": 0.3384865,
+        "type": "moth",
+        "spawn": "nest2",
+        "checkpoints": null
+      }
+    ],
+    [
+      {
+        "count": 5,
+        "delay": 0.20220828,
+        "type": "moth",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 33,
+        "delay": 0.24999988,
+        "type": "superMosquito",
+        "spawn": "nest1",
+        "checkpoints": null
+      },
+      {
+        "count": 4,
+        "delay": 0.16820836,
+        "type": "snoutFly",
+        "spawn": "nest1",
+        "checkpoints": null
+      },
+      {
+        "count": 26,
+        "delay": 0.24999988,
+        "type": "superMosquito",
+        "spawn": "nest1",
+        "checkpoints": null
+      }
+    ],
+    [
+      {
+        "count": 28,
+        "delay": 0.20961216,
+        "type": "moth",
+        "spawn": "nest1",
+        "checkpoints": null
+      },
+      {
+        "count": 12,
+        "delay": 0.22539257,
         "type": "moth",
         "spawn": "nest1",
         "checkpoints": null
       },
       {
         "count": 17,
-        "delay": 0.9758607,
-        "type": "mosquito",
-        "spawn": "nest2",
-        "checkpoints": null
-      }
-    ],
-    [
-      {
-        "count": 9,
-        "delay": 0.99999994,
-        "type": "horsefly",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 4,
-        "delay": 0.99999994,
-        "type": "wasp",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 13,
-        "delay": 0.99999994,
-        "type": "superMosquito",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 5,
-        "delay": 0.8498843,
-        "type": "snoutFly",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 4,
-        "delay": 0.742709,
-        "type": "moth",
-        "spawn": "nest1",
-        "checkpoints": null
-      }
-    ],
-    [
-      {
-        "count": 4,
-        "delay": 0.9499999,
-        "type": "horsefly",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 1,
-        "delay": 0.6952281,
-        "type": "snoutFly",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 13,
-        "delay": 0.9499999,
-        "type": "wasp",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 2,
-        "delay": 0.69968593,
-        "type": "moth",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 4,
-        "delay": 0.9499999,
-        "type": "wasp",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 7,
-        "delay": 0.68081754,
-        "type": "mosquito",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 15,
-        "delay": 0.9499999,
-        "type": "wasp",
-        "spawn": "nest2",
-        "checkpoints": null
-      }
-    ],
-    [
-      {
-        "count": 5,
-        "delay": 0.9,
-        "type": "wasp",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 9,
-        "delay": 0.28699046,
-        "type": "mosquito",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 16,
-        "delay": 0.9,
-        "type": "wasp",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 9,
-        "delay": 0.9,
-        "type": "superMosquito",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 2,
-        "delay": 0.9,
-        "type": "horsefly",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 5,
-        "delay": 0.9,
-        "type": "wasp",
-        "spawn": "nest1",
-        "checkpoints": null
-      }
-    ],
-    [
-      {
-        "count": 8,
-        "delay": 0.8499999,
-        "type": "superMosquito",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 1,
-        "delay": 0.5204857,
+        "delay": 0.09231133,
         "type": "moth",
         "spawn": "nest1",
         "checkpoints": null
       },
       {
-        "count": 6,
-        "delay": 0.49065858,
-        "type": "mosquito",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 6,
-        "delay": 0.5980338,
+        "count": 18,
+        "delay": 0.13353334,
         "type": "moth",
         "spawn": "nest2",
         "checkpoints": null
       },
       {
-        "count": 8,
-        "delay": 0.8499999,
-        "type": "horsefly",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 13,
-        "delay": 0.4454357,
-        "type": "mosquito",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 6,
-        "delay": 0.724747,
+        "count": 11,
+        "delay": 0.117035076,
         "type": "moth",
-        "spawn": "nest1",
-        "checkpoints": null
-      }
-    ],
-    [
-      {
-        "count": 36,
-        "delay": 0.43481314,
-        "type": "mosquito",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 8,
-        "delay": 0.79999995,
-        "type": "horsefly",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 1,
-        "delay": 0.34445316,
-        "type": "snoutFly",
         "spawn": "nest1",
         "checkpoints": null
       }
@@ -392,68 +724,22 @@
     [
       {
         "count": 24,
-        "delay": 0.74999994,
+        "delay": 0.14999998,
         "type": "superMosquito",
-        "spawn": "nest1",
+        "spawn": "nest3",
         "checkpoints": null
       },
       {
-        "count": 12,
-        "delay": 0.48056167,
+        "count": 39,
+        "delay": 0.14999998,
+        "type": "wasp",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 11,
+        "delay": 0.13756192,
         "type": "snoutFly",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 16,
-        "delay": 0.35086477,
-        "type": "mosquito",
-        "spawn": "nest1",
-        "checkpoints": null
-      }
-    ],
-    [
-      {
-        "count": 61,
-        "delay": 0.4049999,
-        "type": "wasp",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 7,
-        "delay": 0.4049999,
-        "type": "wasp",
-        "spawn": "nest2",
-        "checkpoints": null
-      }
-    ],
-    [
-      {
-        "count": 20,
-        "delay": 0.081442475,
-        "type": "snoutFly",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 13,
-        "delay": 0.32120442,
-        "type": "moth",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 14,
-        "delay": 0.6499999,
-        "type": "wasp",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 2,
-        "delay": 0.6499999,
-        "type": "wasp",
         "spawn": "nest1",
         "checkpoints": null
       }
@@ -461,121 +747,57 @@
     [
       {
         "count": 26,
-        "delay": 0.31499997,
-        "type": "wasp",
-        "spawn": "nest1",
+        "delay": 0.8341681,
+        "type": "superMoth",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 1,
+        "delay": 0.45993418,
+        "type": "moth",
+        "spawn": "nest2",
         "checkpoints": null
       },
       {
         "count": 16,
-        "delay": 0.31499997,
-        "type": "wasp",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 31,
-        "delay": 0.31499997,
-        "type": "wasp",
-        "spawn": "nest1",
-        "checkpoints": null
-      }
-    ],
-    [
-      {
-        "count": 28,
-        "delay": 0.54999995,
-        "type": "wasp",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 36,
-        "delay": 0.02,
-        "type": "mosquito",
-        "spawn": "nest2",
-        "checkpoints": null
-      }
-    ],
-    [
-      {
-        "count": 2,
-        "delay": 0.22499989,
-        "type": "wasp",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 11,
-        "delay": 0.22499989,
-        "type": "wasp",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 28,
-        "delay": 0.22499989,
-        "type": "wasp",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 31,
-        "delay": 0.22499989,
-        "type": "wasp",
-        "spawn": "nest1",
-        "checkpoints": null
-      }
-    ],
-    [
-      {
-        "count": 7,
-        "delay": 0.02,
-        "type": "mosquito",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 13,
-        "delay": 1.2984787,
+        "delay": 0.9307511,
         "type": "superMoth",
-        "spawn": "nest1",
+        "spawn": "nest3",
         "checkpoints": null
       },
       {
-        "count": 39,
-        "delay": 0.44999993,
-        "type": "superMosquito",
-        "spawn": "nest2",
+        "count": 3,
+        "delay": 0.099999905,
+        "type": "wasp",
+        "spawn": "nest3",
         "checkpoints": null
       },
       {
         "count": 4,
-        "delay": 0.1148932,
+        "delay": 0.16428077,
         "type": "moth",
         "spawn": "nest1",
         "checkpoints": null
-      }
-    ],
-    [
+      },
       {
-        "count": 12,
-        "delay": 0.018,
-        "type": "wasp",
-        "spawn": "nest2",
+        "count": 2,
+        "delay": 0.099999905,
+        "type": "superMosquito",
+        "spawn": "nest3",
         "checkpoints": null
       },
       {
-        "count": 48,
-        "delay": 0.018,
+        "count": 26,
+        "delay": 0.099999905,
         "type": "wasp",
         "spawn": "nest1",
         "checkpoints": null
       },
       {
-        "count": 22,
-        "delay": 0.018,
-        "type": "wasp",
+        "count": 1,
+        "delay": 0.9746835,
+        "type": "superMoth",
         "spawn": "nest2",
         "checkpoints": null
       }
@@ -583,15 +805,380 @@
     [
       {
         "count": 24,
-        "delay": 0.34999996,
+        "delay": 0.30397612,
+        "type": "snoutFly",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 56,
+        "delay": 0.049999952,
+        "type": "superMosquito",
+        "spawn": "nest3",
+        "checkpoints": null
+      }
+    ],
+    [
+      {
+        "count": 41,
+        "delay": 0.02,
+        "type": "wasp",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 16,
+        "delay": 0.02,
+        "type": "superMosquito",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 23,
+        "delay": 0.8997211,
+        "type": "superMoth",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 9,
+        "delay": 0.31043732,
+        "type": "moth",
+        "spawn": "nest1",
+        "checkpoints": null
+      }
+    ],
+    [
+      {
+        "count": 1,
+        "delay": 0.37076014,
+        "type": "moth",
+        "spawn": "nest1",
+        "checkpoints": null
+      },
+      {
+        "count": 44,
+        "delay": 0.02,
+        "type": "superMosquito",
+        "spawn": "nest1",
+        "checkpoints": null
+      },
+      {
+        "count": 28,
+        "delay": 0.02,
         "type": "wasp",
         "spawn": "nest1",
         "checkpoints": null
       },
       {
-        "count": 45,
-        "delay": 0.34999996,
+        "count": 7,
+        "delay": 0.02,
         "type": "superMosquito",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 3,
+        "delay": 0.02,
+        "type": "superMosquito",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 3,
+        "delay": 0.86856055,
+        "type": "superMoth",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 1,
+        "delay": 0.02,
+        "type": "superMosquito",
+        "spawn": "nest2",
+        "checkpoints": null
+      }
+    ],
+    [
+      {
+        "count": 50,
+        "delay": 0.02,
+        "type": "superMosquito",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 21,
+        "delay": 0.07770944,
+        "type": "snoutFly",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 21,
+        "delay": 0.02,
+        "type": "superMosquito",
+        "spawn": "nest2",
+        "checkpoints": null
+      }
+    ],
+    [
+      {
+        "count": 2,
+        "delay": 0.6935073,
+        "type": "superMoth",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 29,
+        "delay": 0.24468517,
+        "type": "moth",
+        "spawn": "nest1",
+        "checkpoints": null
+      },
+      {
+        "count": 4,
+        "delay": 0.02,
+        "type": "superMosquito",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 33,
+        "delay": 0.36791015,
+        "type": "moth",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 13,
+        "delay": 0.09187102,
+        "type": "moth",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 10,
+        "delay": 0.37251663,
+        "type": "snoutFly",
+        "spawn": "nest2",
+        "checkpoints": null
+      }
+    ],
+    [
+      {
+        "count": 32,
+        "delay": 0.02,
+        "type": "superMosquito",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 23,
+        "delay": 0.27905047,
+        "type": "moth",
+        "spawn": "nest1",
+        "checkpoints": null
+      },
+      {
+        "count": 26,
+        "delay": 0.39885086,
+        "type": "moth",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 17,
+        "delay": 0.79637086,
+        "type": "superMoth",
+        "spawn": "nest1",
+        "checkpoints": null
+      }
+    ],
+    [
+      {
+        "count": 28,
+        "delay": 0.3443935,
+        "type": "moth",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 38,
+        "delay": 0.02,
+        "type": "wasp",
+        "spawn": "nest1",
+        "checkpoints": null
+      },
+      {
+        "count": 28,
+        "delay": 0.02,
+        "type": "superMosquito",
+        "spawn": "nest1",
+        "checkpoints": null
+      }
+    ],
+    [
+      {
+        "count": 85,
+        "delay": 0.02,
+        "type": "superMosquito",
+        "spawn": "nest1",
+        "checkpoints": null
+      },
+      {
+        "count": 7,
+        "delay": 0.74465007,
+        "type": "superMoth",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 8,
+        "delay": 0.32393295,
+        "type": "moth",
+        "spawn": "nest3",
+        "checkpoints": null
+      }
+    ],
+    [
+      {
+        "count": 34,
+        "delay": 0.11242682,
+        "type": "moth",
+        "spawn": "nest1",
+        "checkpoints": null
+      },
+      {
+        "count": 70,
+        "delay": 0.02,
+        "type": "superMosquito",
+        "spawn": "nest3",
+        "checkpoints": null
+      }
+    ],
+    [
+      {
+        "count": 8,
+        "delay": 0.28774202,
+        "type": "moth",
+        "spawn": "nest1",
+        "checkpoints": null
+      },
+      {
+        "count": 14,
+        "delay": 0.44923943,
+        "type": "moth",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 42,
+        "delay": 0.3475357,
+        "type": "moth",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 8,
+        "delay": 0.37868944,
+        "type": "moth",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 35,
+        "delay": 0.11291011,
+        "type": "moth",
+        "spawn": "nest1",
+        "checkpoints": null
+      }
+    ],
+    [
+      {
+        "count": 23,
+        "delay": 0.39396596,
+        "type": "moth",
+        "spawn": "nest1",
+        "checkpoints": null
+      },
+      {
+        "count": 34,
+        "delay": 0.086767524,
+        "type": "moth",
+        "spawn": "nest1",
+        "checkpoints": null
+      },
+      {
+        "count": 1,
+        "delay": 0.41761,
+        "type": "moth",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 17,
+        "delay": 0.2714676,
+        "type": "moth",
+        "spawn": "nest1",
+        "checkpoints": null
+      },
+      {
+        "count": 1,
+        "delay": 0.11043411,
+        "type": "moth",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 31,
+        "delay": 0.22296849,
+        "type": "moth",
+        "spawn": "nest1",
+        "checkpoints": null
+      }
+    ],
+    [
+      {
+        "count": 18,
+        "delay": 0.4733562,
+        "type": "superMoth",
+        "spawn": "nest1",
+        "checkpoints": null
+      },
+      {
+        "count": 11,
+        "delay": 0.4713156,
+        "type": "moth",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 25,
+        "delay": 0.02,
+        "type": "superMosquito",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 30,
+        "delay": 0.47800332,
+        "type": "superMoth",
+        "spawn": "nest1",
+        "checkpoints": null
+      },
+      {
+        "count": 21,
+        "delay": 0.2443052,
+        "type": "snoutFly",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 4,
+        "delay": 0.14227092,
+        "type": "snoutFly",
         "spawn": "nest2",
         "checkpoints": null
       }
@@ -599,673 +1186,369 @@
     [
       {
         "count": 88,
-        "delay": 0.018,
-        "type": "wasp",
-        "spawn": "nest1",
-        "checkpoints": null
-      }
-    ],
-    [
-      {
-        "count": 34,
-        "delay": 0.018,
-        "type": "wasp",
-        "spawn": "nest2",
+        "delay": 0.02,
+        "type": "superMosquito",
+        "spawn": "nest3",
         "checkpoints": null
       },
       {
-        "count": 34,
-        "delay": 0.018,
+        "count": 21,
+        "delay": 0.02,
         "type": "wasp",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 17,
-        "delay": 0.018,
-        "type": "wasp",
-        "spawn": "nest2",
+        "spawn": "nest3",
         "checkpoints": null
       }
     ],
     [
       {
         "count": 28,
-        "delay": 0.018,
-        "type": "wasp",
+        "delay": 0.18938498,
+        "type": "moth",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 42,
+        "delay": 0.117720164,
+        "type": "moth",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 10,
+        "delay": 0.43637577,
+        "type": "moth",
         "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 60,
-        "delay": 0.018,
-        "type": "wasp",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 5,
-        "delay": 0.018,
-        "type": "wasp",
-        "spawn": "nest1",
-        "checkpoints": null
-      }
-    ],
-    [
-      {
-        "count": 9,
-        "delay": 0.018,
-        "type": "wasp",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 13,
-        "delay": 0.018,
-        "type": "wasp",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 52,
-        "delay": 0.018,
-        "type": "wasp",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 21,
-        "delay": 0.018,
-        "type": "wasp",
-        "spawn": "nest2",
-        "checkpoints": null
-      }
-    ],
-    [
-      {
-        "count": 1,
-        "delay": 0.7763077,
-        "type": "superMoth",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 1,
-        "delay": 0.099999905,
-        "type": "superMosquito",
-        "spawn": "nest2",
         "checkpoints": null
       },
       {
         "count": 25,
-        "delay": 0.24972796,
-        "type": "snoutFly",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 20,
-        "delay": 0.099999905,
-        "type": "wasp",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 30,
-        "delay": 0.119636536,
-        "type": "snoutFly",
-        "spawn": "nest2",
-        "checkpoints": null
-      }
-    ],
-    [
-      {
-        "count": 23,
-        "delay": 1.0020155,
-        "type": "superMoth",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 19,
-        "delay": 0.2273891,
-        "type": "snoutFly",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 11,
-        "delay": 0.46302152,
+        "delay": 0.44367653,
         "type": "moth",
         "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 13,
-        "delay": 0.049999952,
-        "type": "superMosquito",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 1,
-        "delay": 0.06506032,
-        "type": "moth",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 1,
-        "delay": 0.32975864,
-        "type": "moth",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 19,
-        "delay": 0.88853014,
-        "type": "superMoth",
-        "spawn": "nest1",
-        "checkpoints": null
-      }
-    ],
-    [
-      {
-        "count": 24,
-        "delay": 0.02,
-        "type": "superMosquito",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 4,
-        "delay": 0.02,
-        "type": "superMosquito",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 13,
-        "delay": 1.0304877,
-        "type": "superMoth",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 18,
-        "delay": 0.02,
-        "type": "wasp",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 27,
-        "delay": 0.24447042,
-        "type": "moth",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 1,
-        "delay": 0.71219254,
-        "type": "superMoth",
-        "spawn": "nest2",
-        "checkpoints": null
-      }
-    ],
-    [
-      {
-        "count": 10,
-        "delay": 0.48612773,
-        "type": "snoutFly",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 11,
-        "delay": 0.436636,
-        "type": "snoutFly",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 35,
-        "delay": 0.122202516,
-        "type": "snoutFly",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 33,
-        "delay": 0.02,
-        "type": "superMosquito",
-        "spawn": "nest1",
-        "checkpoints": null
-      }
-    ],
-    [
-      {
-        "count": 103,
-        "delay": 0.018,
-        "type": "wasp",
-        "spawn": "nest2",
-        "checkpoints": null
-      }
-    ],
-    [
-      {
-        "count": 8,
-        "delay": 0.018,
-        "type": "wasp",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 24,
-        "delay": 0.018,
-        "type": "wasp",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 8,
-        "delay": 0.018,
-        "type": "wasp",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 1,
-        "delay": 0.018,
-        "type": "wasp",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 64,
-        "delay": 0.018,
-        "type": "wasp",
-        "spawn": "nest2",
-        "checkpoints": null
-      }
-    ],
-    [
-      {
-        "count": 38,
-        "delay": 0.02,
-        "type": "wasp",
-        "spawn": "nest2",
         "checkpoints": null
       },
       {
         "count": 12,
-        "delay": 0.7818503,
-        "type": "superMoth",
+        "delay": 0.070314,
+        "type": "moth",
+        "spawn": "nest2",
+        "checkpoints": null
+      }
+    ],
+    [
+      {
+        "count": 44,
+        "delay": 0.30092004,
+        "type": "moth",
         "spawn": "nest1",
         "checkpoints": null
       },
       {
-        "count": 3,
-        "delay": 0.02,
-        "type": "superMosquito",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 23,
-        "delay": 0.13345903,
-        "type": "snoutFly",
-        "spawn": "nest2",
+        "count": 40,
+        "delay": 0.18908596,
+        "type": "moth",
+        "spawn": "nest3",
         "checkpoints": null
       },
       {
         "count": 16,
-        "delay": 0.50309986,
-        "type": "superMoth",
-        "spawn": "nest2",
-        "checkpoints": null
-      }
-    ],
-    [
-      {
-        "count": 11,
-        "delay": 0.018,
-        "type": "wasp",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 83,
-        "delay": 0.018,
-        "type": "wasp",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 12,
-        "delay": 0.018,
-        "type": "wasp",
-        "spawn": "nest1",
-        "checkpoints": null
-      }
-    ],
-    [
-      {
-        "count": 52,
-        "delay": 0.02,
-        "type": "superMosquito",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 3,
-        "delay": 0.02,
-        "type": "superMosquito",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 21,
-        "delay": 0.17654413,
+        "delay": 0.3725911,
         "type": "moth",
-        "spawn": "nest2",
+        "spawn": "nest3",
         "checkpoints": null
       },
       {
-        "count": 27,
-        "delay": 0.02,
-        "type": "superMosquito",
-        "spawn": "nest2",
-        "checkpoints": null
-      }
-    ],
-    [
-      {
-        "count": 40,
-        "delay": 0.02,
-        "type": "wasp",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 48,
-        "delay": 0.02,
-        "type": "superMosquito",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 11,
-        "delay": 0.02,
-        "type": "superMosquito",
-        "spawn": "nest1",
-        "checkpoints": null
-      }
-    ],
-    [
-      {
-        "count": 30,
-        "delay": 0.02,
-        "type": "superMosquito",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 1,
-        "delay": 0.21695709,
-        "type": "snoutFly",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 21,
-        "delay": 0.35546476,
+        "count": 8,
+        "delay": 0.15815334,
         "type": "moth",
         "spawn": "nest1",
         "checkpoints": null
       },
       {
-        "count": 22,
-        "delay": 0.06696427,
+        "count": 9,
+        "delay": 0.13282304,
         "type": "moth",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 28,
-        "delay": 0.10246706,
-        "type": "snoutFly",
-        "spawn": "nest2",
-        "checkpoints": null
-      }
-    ],
-    [
-      {
-        "count": 34,
-        "delay": 0.02,
-        "type": "superMosquito",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 46,
-        "delay": 0.3973726,
-        "type": "snoutFly",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 23,
-        "delay": 0.02,
-        "type": "wasp",
         "spawn": "nest1",
         "checkpoints": null
       }
     ],
     [
       {
-        "count": 20,
-        "delay": 0.169034,
-        "type": "moth",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 10,
-        "delay": 0.5737837,
-        "type": "superMoth",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 26,
-        "delay": 0.51770824,
-        "type": "superMoth",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 25,
-        "delay": 0.30704832,
-        "type": "moth",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 28,
-        "delay": 0.02,
-        "type": "wasp",
-        "spawn": "nest1",
-        "checkpoints": null
-      }
-    ],
-    [
-      {
-        "count": 24,
-        "delay": 0.14477372,
-        "type": "moth",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 33,
-        "delay": 0.02,
-        "type": "superMosquito",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 20,
-        "delay": 0.02,
-        "type": "wasp",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 27,
-        "delay": 0.4496518,
+        "count": 36,
+        "delay": 0.45895272,
         "type": "snoutFly",
         "spawn": "nest1",
         "checkpoints": null
       },
       {
         "count": 2,
-        "delay": 0.02,
-        "type": "superMosquito",
-        "spawn": "nest2",
-        "checkpoints": null
-      }
-    ],
-    [
-      {
-        "count": 32,
-        "delay": 0.02,
-        "type": "superMosquito",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 32,
-        "delay": 0.35547316,
-        "type": "moth",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 52,
-        "delay": 0.02,
-        "type": "wasp",
-        "spawn": "nest1",
-        "checkpoints": null
-      }
-    ],
-    [
-      {
-        "count": 30,
-        "delay": 0.02,
-        "type": "superMosquito",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 35,
-        "delay": 0.32922888,
-        "type": "moth",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 18,
-        "delay": 0.17252308,
-        "type": "snoutFly",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 27,
-        "delay": 0.1252985,
+        "delay": 0.25387216,
         "type": "superMoth",
         "spawn": "nest2",
         "checkpoints": null
-      }
-    ],
-    [
-      {
-        "count": 117,
-        "delay": 0.02,
-        "type": "superMosquito",
-        "spawn": "nest1",
-        "checkpoints": null
-      }
-    ],
-    [
-      {
-        "count": 4,
-        "delay": 0.44348568,
-        "type": "moth",
-        "spawn": "nest2",
-        "checkpoints": null
       },
       {
-        "count": 59,
-        "delay": 0.02,
-        "type": "wasp",
-        "spawn": "nest2",
+        "count": 1,
+        "delay": 0.1601721,
+        "type": "snoutFly",
+        "spawn": "nest1",
         "checkpoints": null
       },
       {
         "count": 37,
         "delay": 0.02,
-        "type": "wasp",
+        "type": "superMosquito",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 25,
+        "delay": 0.34123796,
+        "type": "superMoth",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 6,
+        "delay": 0.38536918,
+        "type": "superMoth",
+        "spawn": "nest1",
+        "checkpoints": null
+      },
+      {
+        "count": 9,
+        "delay": 0.02,
+        "type": "superMosquito",
+        "spawn": "nest3",
+        "checkpoints": null
+      }
+    ],
+    [
+      {
+        "count": 50,
+        "delay": 0.4189827,
+        "type": "moth",
         "spawn": "nest1",
         "checkpoints": null
       },
       {
         "count": 21,
+        "delay": 0.1607685,
+        "type": "moth",
+        "spawn": "nest1",
+        "checkpoints": null
+      },
+      {
+        "count": 12,
+        "delay": 0.10577205,
+        "type": "moth",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 2,
+        "delay": 0.30051288,
+        "type": "moth",
+        "spawn": "nest1",
+        "checkpoints": null
+      },
+      {
+        "count": 40,
+        "delay": 0.10455122,
+        "type": "moth",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 1,
+        "delay": 0.08541532,
+        "type": "moth",
+        "spawn": "nest3",
+        "checkpoints": null
+      }
+    ],
+    [
+      {
+        "count": 19,
+        "delay": 0.34380478,
+        "type": "moth",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 46,
+        "delay": 0.14633241,
+        "type": "moth",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 22,
+        "delay": 0.2175883,
+        "type": "moth",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 18,
+        "delay": 0.23304522,
+        "type": "moth",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 19,
+        "delay": 0.30097055,
+        "type": "moth",
+        "spawn": "nest3",
+        "checkpoints": null
+      }
+    ],
+    [
+      {
+        "count": 46,
         "delay": 0.02,
-        "type": "wasp",
+        "type": "superMosquito",
+        "spawn": "nest1",
+        "checkpoints": null
+      },
+      {
+        "count": 46,
+        "delay": 0.058956146,
+        "type": "superMoth",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 15,
+        "delay": 0.02,
+        "type": "superMosquito",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 11,
+        "delay": 0.3483886,
+        "type": "snoutFly",
         "spawn": "nest2",
         "checkpoints": null
       }
     ],
     [
       {
-        "count": 21,
-        "delay": 0.39269698,
-        "type": "moth",
+        "count": 1,
+        "delay": 0.24416327,
+        "type": "snoutFly",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 30,
+        "delay": 0.02,
+        "type": "wasp",
         "spawn": "nest2",
         "checkpoints": null
       },
       {
-        "count": 11,
-        "delay": 0.4539724,
-        "type": "superMoth",
+        "count": 54,
+        "delay": 0.2803929,
+        "type": "snoutFly",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 16,
+        "delay": 0.02,
+        "type": "wasp",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 16,
+        "delay": 0.07556164,
+        "type": "moth",
         "spawn": "nest1",
         "checkpoints": null
       },
       {
-        "count": 23,
-        "delay": 0.35654116,
+        "count": 12,
+        "delay": 0.18050748,
+        "type": "snoutFly",
+        "spawn": "nest2",
+        "checkpoints": null
+      }
+    ],
+    [
+      {
+        "count": 47,
+        "delay": 0.35601127,
         "type": "superMoth",
-        "spawn": "nest1",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 45,
+        "delay": 0.02,
+        "type": "wasp",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 26,
+        "delay": 0.24539655,
+        "type": "snoutFly",
+        "spawn": "nest2",
         "checkpoints": null
       },
       {
         "count": 4,
-        "delay": 0.31053257,
+        "delay": 0.32730722,
+        "type": "snoutFly",
+        "spawn": "nest2",
+        "checkpoints": null
+      },
+      {
+        "count": 10,
+        "delay": 0.02,
+        "type": "superMosquito",
+        "spawn": "nest2",
+        "checkpoints": null
+      }
+    ],
+    [
+      {
+        "count": 44,
+        "delay": 0.18603456,
         "type": "snoutFly",
         "spawn": "nest2",
         "checkpoints": null
       },
       {
         "count": 27,
-        "delay": 0.33545542,
-        "type": "superMoth",
-        "spawn": "nest1",
+        "delay": 0.02,
+        "type": "superMosquito",
+        "spawn": "nest3",
         "checkpoints": null
       },
       {
-        "count": 40,
+        "count": 57,
+        "delay": 0.02,
+        "type": "superMosquito",
+        "spawn": "nest2",
+        "checkpoints": null
+      }
+    ],
+    [
+      {
+        "count": 102,
+        "delay": 0.02,
+        "type": "superMosquito",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 36,
         "delay": 0.02,
         "type": "superMosquito",
         "spawn": "nest1",
@@ -1274,227 +1557,137 @@
     ],
     [
       {
-        "count": 71,
-        "delay": 0.018,
-        "type": "wasp",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 66,
-        "delay": 0.018,
-        "type": "wasp",
-        "spawn": "nest2",
-        "checkpoints": null
-      }
-    ],
-    [
-      {
-        "count": 15,
-        "delay": 0.19049382,
-        "type": "superMoth",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 11,
-        "delay": 0.1846416,
+        "count": 37,
+        "delay": 0.37177357,
         "type": "moth",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 98,
-        "delay": 0.02,
-        "type": "superMosquito",
-        "spawn": "nest1",
-        "checkpoints": null
-      }
-    ],
-    [
-      {
-        "count": 124,
-        "delay": 0.018,
-        "type": "wasp",
         "spawn": "nest2",
         "checkpoints": null
       },
       {
-        "count": 12,
-        "delay": 0.018,
-        "type": "wasp",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 5,
-        "delay": 0.018,
-        "type": "wasp",
-        "spawn": "nest2",
-        "checkpoints": null
-      }
-    ],
-    [
-      {
-        "count": 40,
-        "delay": 0.018,
-        "type": "wasp",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 97,
-        "delay": 0.018,
-        "type": "wasp",
-        "spawn": "nest2",
-        "checkpoints": null
-      }
-    ],
-    [
-      {
-        "count": 25,
-        "delay": 0.18804723,
+        "count": 13,
+        "delay": 0.36834723,
         "type": "moth",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 42,
-        "delay": 0.24676377,
-        "type": "moth",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 19,
-        "delay": 0.02,
-        "type": "wasp",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 38,
-        "delay": 0.11442995,
-        "type": "superMoth",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 4,
-        "delay": 0.02,
-        "type": "superMosquito",
-        "spawn": "nest1",
-        "checkpoints": null
-      }
-    ],
-    [
-      {
-        "count": 95,
-        "delay": 0.018,
-        "type": "wasp",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 59,
-        "delay": 0.018,
-        "type": "wasp",
-        "spawn": "nest1",
-        "checkpoints": null
-      }
-    ],
-    [
-      {
-        "count": 46,
-        "delay": 0.018,
-        "type": "wasp",
-        "spawn": "nest1",
-        "checkpoints": null
-      },
-      {
-        "count": 1,
-        "delay": 0.018,
-        "type": "wasp",
-        "spawn": "nest2",
-        "checkpoints": null
-      },
-      {
-        "count": 40,
-        "delay": 0.018,
-        "type": "wasp",
         "spawn": "nest1",
         "checkpoints": null
       },
       {
         "count": 36,
-        "delay": 0.018,
-        "type": "wasp",
+        "delay": 0.13844758,
+        "type": "moth",
         "spawn": "nest2",
         "checkpoints": null
       },
       {
-        "count": 18,
-        "delay": 0.018,
-        "type": "wasp",
+        "count": 42,
+        "delay": 0.23189874,
+        "type": "moth",
         "spawn": "nest1",
         "checkpoints": null
       },
       {
         "count": 8,
-        "delay": 0.018,
-        "type": "wasp",
-        "spawn": "nest2",
+        "delay": 0.20751682,
+        "type": "moth",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 6,
+        "delay": 0.4269791,
+        "type": "moth",
+        "spawn": "nest1",
         "checkpoints": null
       }
     ],
     [
       {
-        "count": 32,
-        "delay": 0.40100503,
-        "type": "snoutFly",
+        "count": 4,
+        "delay": 0.18021923,
+        "type": "moth",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 28,
+        "delay": 0.08977723,
+        "type": "moth",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 30,
+        "delay": 0.38105226,
+        "type": "moth",
         "spawn": "nest2",
         "checkpoints": null
       },
       {
-        "count": 46,
-        "delay": 0.02,
-        "type": "wasp",
+        "count": 53,
+        "delay": 0.4135647,
+        "type": "moth",
         "spawn": "nest1",
         "checkpoints": null
       },
       {
-        "count": 40,
-        "delay": 0.06698513,
-        "type": "snoutFly",
+        "count": 18,
+        "delay": 0.21843985,
+        "type": "moth",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 10,
+        "delay": 0.32696885,
+        "type": "moth",
+        "spawn": "nest3",
+        "checkpoints": null
+      }
+    ],
+    [
+      {
+        "count": 41,
+        "delay": 0.21687193,
+        "type": "moth",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 49,
+        "delay": 0.11596799,
+        "type": "moth",
+        "spawn": "nest3",
+        "checkpoints": null
+      },
+      {
+        "count": 11,
+        "delay": 0.11575132,
+        "type": "moth",
         "spawn": "nest1",
         "checkpoints": null
       },
       {
-        "count": 17,
-        "delay": 0.02,
-        "type": "wasp",
-        "spawn": "nest2",
+        "count": 38,
+        "delay": 0.26851776,
+        "type": "moth",
+        "spawn": "nest1",
         "checkpoints": null
       }
     ]
   ],
   "extraHardRounds": [
-    11,
+    8,
     13,
-    15,
-    17,
     19,
-    20,
     21,
-    22,
-    27,
-    28,
-    30,
-    42,
-    44,
-    45,
+    33,
+    34,
+    37,
+    38,
+    40,
+    41,
     47,
-    48
+    48,
+    49
   ],
   "bosses": []
 }
